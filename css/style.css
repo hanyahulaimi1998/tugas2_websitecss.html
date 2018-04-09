@@ -1,0 +1,74 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Baskerville Old Face', cursive;
+}
+.bg{
+	background-image: url("../img/pexels-photo-531880.jpeg");
+	height: 250%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nama{
+	text-align: center;
+	font-size: 200%;
+	color: black;
+	/*text-transform: uppercase;*/
+	font-weight: 200;
+}
+.nama:hover{
+	text-align: center;
+	font-size: 200%;
+	color: red;
+	/*text-transform: uppercase;*/
+	font-weight: 200;
+}
+.foto{
+	margin: 4 auto;
+	padding: 5% 0 3% 0;
+	text-align: center;
+}
+.foto2{
+	margin: 4 auto;
+	padding: 5% 0 3% 0;
+	text-align: center;
+}
+.foto3{
+	margin: 4 auto;
+	padding: 5% 0 3% 0;
+	text-align: center;
+}
+.foto-grs{
+	max-width: 20rem;
+	max-height: 20rem;
+	border: .8rem(255, 255, 255,.2);
+}
+.foto-grs2{
+	max-width: 5rem;
+	max-height: 5rem;
+	height: 40px;
+	width: 40px;
+	border: .1rem solid rgba(255, 255, 255,.1);
+}
+.foto-grs3{
+	max-width: 10rem;
+	max-height: 10rem;
+	border: .8rem solid rgba(255, 255, 255,.2);
+}
+.foto-lingkaran{
+	border-radius: 100% !important;
+}
+.foto-lingkaran2{
+	border-radius: 50% !important;
+}
+.foto-lingkaran3{
+	border-radius: 50% !important;
+}
+
+.tabel{
+text-align: center;
+}
+.tabel:hover{
+	background-color: blue;
+}
